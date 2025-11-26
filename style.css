@@ -1,0 +1,153 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Offer Banner */
+.top-offer {
+    background: #ff3c00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    background: #111;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    color: #ff3c00;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.hero-text h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #ff3c00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero .btn:hover {
+    background: #ff5722;
+}
+
+/* Services */
+.services {
+    padding: 60px;
+    text-align: center;
+}
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.service-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.box {
+    width: 250px;
+    padding: 20px;
+    background: #eee;
+    border-radius: 8px;
+}
+.box:hover {
+    background: #ddd;
+}
+
+/* Trainers */
+.trainers {
+    padding: 60px;
+    text-align: center;
+    background: #f4f4f4;
+}
+.trainer-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.card {
+    width: 250px;
+    background: #fff;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0 2px 6px #ccc;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+/* Contact */
+.contact {
+    padding: 60px;
+    text-align: center;
+}
+.contact form {
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact input, .contact textarea {
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+.contact button {
+    background: #ff3c00;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact button:hover {
+    background: #ff5722;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
